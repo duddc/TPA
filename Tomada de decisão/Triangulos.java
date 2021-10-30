@@ -3,7 +3,7 @@ import java.util.*;
 public class Triangulos{
 	public static void main (String []args ) {
     Scanner in = new Scanner (System.in);
-		double  a, b, c;
+		int  a, b, c;
 		
 		   System.out.println("Digite o primeiro valor:");
 		   a = in.nextInt();
