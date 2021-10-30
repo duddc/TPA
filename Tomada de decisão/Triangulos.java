@@ -22,10 +22,8 @@ public class Triangulos{
 		   } else {
 			   System.out.println("Não é um triângulo");
 		   }
-		  in.close();
-		   
-	     }
-			    
-	 }
+		  in.close();		   
+	   }		    
+     }
 }
 
