@@ -3,7 +3,7 @@ import java.util.*;
 public class Triangulos{
 	public static void main (String []args ) {
     Scanner in = new Scanner (System.in);
-		double soma, a, b, c;
+		double  a, b, c;
 		
 		   System.out.println("Digite o primeiro valor:");
 		   a = in.nextInt();
@@ -14,13 +14,13 @@ public class Triangulos{
 		   
 		   if (a + b > c && a + c > b && b + c > a) {
 			   if(a == b && a == c) { 
-				   System.out.println("… um tri‚ngulo equilatero");
+				   System.out.println("√â um tri√¢ngulo equilatero");
 			       }else if (a == b || a == c || b == c) {
-			    	   System.out.println("… um tri‚ngulo isoceles");
+			    	   System.out.println("√â um tri√¢ngulo isoceles");
 			       }else if (a!= b && b!=c){ 
-			    	   System.out.println("… um tri‚ngulo escaleno");
+			    	   System.out.println("√â um tri√¢ngulo escaleno");
 		   } else {
-			   System.out.println("N„o È um tri‚ngulo");
+			   System.out.println("N√£o √© um tri√¢ngulo");
 		   }
 		  in.close();
 		   
